@@ -41,6 +41,21 @@ const Homepage = () => {
            </a>
            </div>
         </div>
+        <div className = 'skills'>
+        <h2>/ Skills</h2>
+        <p>/ Version control: <br></br>
+            Git, Github <br></br>
+            / Javascript frameworks and libraries: <br></br>
+            React, Redux, Node, Express <br></br>
+            / Design: <br></br>
+            Photoshop, figma, responsive design <br></br>
+            / Soft skills: <br></br>
+            Patience, communication, initiative, Agile <br></br>
+            / Currently learning: <br></br>
+            Typescript, Firebase
+
+        </p>
+        </div>
         </div>
         <img src = {josh}></img>
         </>
