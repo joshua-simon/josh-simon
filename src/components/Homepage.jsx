@@ -36,7 +36,7 @@ const Homepage = () => {
            <a href = 'https://f-m-l.herokuapp.com'>
            <h3 className = 'links'>Website</h3>
            </a>
-           <a href = 'https://github.com/joshua-simon/hashigo-zake-v2/'>
+           <a href = ''>
            <h3 className = 'links'>Code</h3>
            </a>
            </div>
