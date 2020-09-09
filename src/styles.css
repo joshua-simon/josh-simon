@@ -78,7 +78,7 @@ display: block;
 
 .fml {
     position:relative;
-    z-index:2;
+    z-index:3;
     margin-left:3%;
     transform: translateY(140%)
 }
