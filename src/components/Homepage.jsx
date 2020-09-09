@@ -11,10 +11,10 @@ const Homepage = () => {
         <div className = 'hashigo'>
             <div>
            <h2 className = 'number'>1/</h2><h2 className = 'project-name'>Hashigo Zake Website</h2>
-           <a href = 'https://hashigo-zake.herokuapp.com'>
+           <a href = 'https://hashigo-zake.herokuapp.com' target="_blank">
            <h3 className = 'links'>Website</h3>
            </a>
-           <a href = 'https://github.com/joshua-simon/hashigo-zake-v2/'>
+           <a href = 'https://github.com/joshua-simon/hashigo-zake-v2/' target="_blank">
            <h3 className = 'links'>Code</h3>
            </a>
            </div>
@@ -22,10 +22,10 @@ const Homepage = () => {
         <div className = 'chore-share'>
             <div>
            <h2 className = 'number'>2/</h2><h2 className = 'project-name'>Chore Share (in progress)</h2>
-           <a href = 'https://chore-share.herokuapp.com/'>
+           <a href = 'https://chore-share.herokuapp.com/' target="_blank">
            <h3 className = 'links'>Website</h3>
            </a>
-           <a href = 'https://github.com/joshua-simon/chore-share-v2'>
+           <a href = 'https://github.com/joshua-simon/chore-share-v2' target="_blank">
            <h3 className = 'links'>Code</h3>
            </a>
            </div>
@@ -33,10 +33,10 @@ const Homepage = () => {
         <div className = 'fml'>
             <div>
            <h2 className = 'number'>3/</h2><h2 className = 'project-name'>Follow My Lead</h2>
-           <a href = 'https://f-m-l.herokuapp.com'>
+           <a href = 'https://f-m-l.herokuapp.com' target="_blank">
            <h3 className = 'links'>Website</h3>
            </a>
-           <a href = 'https://github.com/kahu-2020/Follow-My-Lead'>
+           <a href = 'https://github.com/kahu-2020/Follow-My-Lead' target="_blank">
            <h3 className = 'links'>Code</h3>
            </a>
            </div>
