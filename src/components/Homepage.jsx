@@ -1,13 +1,15 @@
 import React from 'react'
 import josh from '../Photos/josh.png'
+import logo from '../Photos/logo2.png'
 
 const Homepage = () => {
     return (
         <div>
         <>
         <div>
-            <h1>Joshua Simon / Web Developer</h1>
-            <h2>/ Projects</h2>
+            <h1>Joshua Simon  Web Developer</h1>
+            <img className ='logo' src = {logo}></img>
+            <h2> Projects</h2>
         <div className = 'hashigo'>
             <div>
            <h2 className = 'number'>1/</h2><h2 className = 'project-name'>Hashigo Zake Website</h2>
@@ -42,16 +44,16 @@ const Homepage = () => {
            </div>
         </div>
         <div className = 'skills'>
-        <h2>/ Skills</h2>
-        <p>/ Version control: <br></br>
+        <h2> Skills</h2>
+        <p> Version control: <br></br>
             Git, Github <br></br>
-            / Javascript frameworks and libraries: <br></br>
+             Javascript frameworks and libraries: <br></br>
             React, Redux, Node, Express <br></br>
-            / Design: <br></br>
+             Design: <br></br>
             Photoshop, figma, responsive design <br></br>
-            / Soft skills: <br></br>
+             Soft skills: <br></br>
             Patience, communication, initiative, Agile <br></br>
-            / Currently learning: <br></br>
+             Currently learning: <br></br>
             Typescript, Firebase
 
         </p>
