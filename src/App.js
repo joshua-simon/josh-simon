@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles.css'
-import Homepage from './components/Homepage'
+import Main from './components/Main'
 
 function App() {
   return (
 <div>
-<Homepage/>
+<Main/>
 </div>
-  );
+  )
 }
 
 export default App;

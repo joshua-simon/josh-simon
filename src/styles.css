@@ -9,140 +9,112 @@
      url('../src/Fonts/HelveticaNeue-Medium.ttf') format('tff');
 }
 
-html * {
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-}
-
 body {
-    margin: 0 auto;
-    padding:0;
-    background-repeat: no-repeat;
-    background-color: #f8efda;
-    height: 80%;
-    background-position: center center fixed;
-	background-attachment:fixed;
-    background-position: center center fixed;
-	background-attachment:fixed;
-}
-
-h1 {
-    position:absolute;
     font-family: 'Canela-Medium';
-    color: black;
-    letter-spacing: 2px;
-    padding:5%;
-    transform: translateX(2.5%);
-    z-index:1;
-    font-weight: light;
-    font-size:2.5em;
-    padding-top:5%;
+    background-color: rgb(253, 246, 236);
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 1200px;
 }
 
-.h1-webdev {
-    color: rgb(165, 163, 163);
-}
-h2 {
-    color:black;
-    font-family: 'Helvetica';
-    letter-spacing: 2px;
-    font-weight: lighter;
-    transform:translateY(180px);
-    margin-left:8%;
-    font-size:1.8em;
-    font-style: italic;
+.nav {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    color:rgb(104, 98, 98); 
+    border-bottom: 1px solid rgb(184, 173, 173);
+    padding:1%;
 }
 
-h3 {
-    color:black;
-    font-family: 'Helvetica';
-    letter-spacing: 2px;
-    font-weight: lighter;
-    transform:translateY(180px);
-    margin-left:8%;
-    font-size:1.8em;  
-    display: inline-block;
+.nav h2 {
+    font-size:large;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* img {
-    position:relative;
-    z-index:0;
-    filter: brightness(90%);
-    filter: opacity(80%);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    transform:translateY(-60%);
-    margin-left: 28%;
-} */
-
-.hashigo {
-    position:relative;
-    z-index:2;
-    transform: translateY(30%)
+.nav img {
+width:15%;
+height:15%;
+border-radius: 100%;
+padding:1%;;
 }
 
-.chore-share {
-    position:relative;
-    z-index:2;
-    transform: translateY(80%)
+.bio {
+    font-family: 'Roboto', sans-serif;
+    width:50%;
+    border-right: 1px solid rgb(194, 185, 185);
+    margin-top:1%;
 }
 
-.fml {
-    position:relative;
-    z-index:3;
-    transform: translateY(120%);
+.bio li {
+    list-style-type: none;
+    padding:5px;
 }
 
-.number {
-    color: #A71819;
-    font-size:1.2em;
-    font-weight:bold;
+.bio h2 {
+    font-family: 'Canela-Medium';
+    color:rgb(104, 98, 98); 
 }
 
-.project-name, .links {
-    font-size:1.2em;
-    font-family: 'Helvetica';
-    font-style: normal;
-    padding:0.5%;
+ul img {
+    height:20px;
+    width:25px;
+}
+
+.skill {
+    display: flex;
+    flex-direction:row;
+}
+
+.main-layout {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.projects {
+    width:50%;
+    padding:0.8%;
+    padding-left:1%;
+}
+
+.projects h2 {
+    color:rgb(104, 98, 98); 
+    
+}
+
+.project-container-container {
+    display:grid;
+    grid-template-columns: 1 fr 1fr;
+    grid-template-rows: 1 fr 1fr;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(104, 98, 98); 
+   
 }
 
 .project-container {
-   transform: translateY(-10%)
+    border-bottom: 1px solid rgb(182, 173, 173);
+    width:80%;
 }
 
-.links {
-    font-style:italic;
-    border: 1px solid #A71819;
-    border-radius: 10%;
-    padding-left:2px;
-    padding-right:5px;
+.project-container img {
+    width:200px;
+    height:100px;
+    border-radius:5%;
 }
 
-.links:hover{
-    cursor: pointer;
+.footer {
+  margin-top:5%;
+  background-color: antiquewhite;
 }
 
-.skills {
-    position:relative;
-    z-index: 2;
-    transform: translateY(200px)
+.footer ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
 }
 
-p {
-    
-    color:white;
-    font-family: 'Eczar', serif;
-    margin-left:8%;
-    transform: translateY(200px);
-    font-size:1.2em;
-    letter-spacing:2px;
+.footer li {
+    padding:1%;
 }
-
-.logo {
-margin-left:0%;
-transform: translateY(-60%);
-}
-
