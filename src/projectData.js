@@ -3,6 +3,7 @@ import hashi_image from './Photos/hashi_image.png'
 import gigfort_image from './Photos/gigfort_image.png'
 import fml_image from './Photos/fml_image.png'
 
+
 const projects = [
     {
         name: 'The Wellington Coffee Review',
