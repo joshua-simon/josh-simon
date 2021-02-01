@@ -5,12 +5,13 @@ import css_logo from '../Photos/css_logo.jpg'
 import firebase_logo from '../Photos/firebase_logo.png'
 import sqlite_logo from '../Photos/sqlite_logo.png'
 import node_image from '../Photos/node_image.png'
+import {Link} from 'react-router-dom'
 
 const Bio = () => {
     return(
         <div className = 'bio'>
             <h2>Hi! I'm Josh</h2>
-           <p> I'm a <a href = 'https://github.com/joshua-simon'>web developer</a>, <a>scientist</a> and <a href = 'https://soundcloud.com/josh-simon-264281792'>musician</a>. <br></br>
+           <p> I'm a <a href = 'https://github.com/joshua-simon'>web developer</a>, <Link to = {'/thesis'}> scientist</Link> and <a href = 'https://soundcloud.com/josh-simon-264281792'>musician</a>. <br></br>
            <br></br>
             I'm good with React.js, building engaging UI and UX, and all things
             involving front-end development. <br></br>
