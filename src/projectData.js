@@ -20,13 +20,6 @@ const projects = [
         blurb: "A website for one of Wellington's best craft beer bars"
     },
     {
-        name: 'Gig Fort',
-        url: 'gigfort.nz',
-        image:gigfort_image,
-        techStack: 'React,Firebase,CSS, Day.js',
-        blurb: "A comprehensive, clear weekly guide for Wellington's live music"
-    },
-    {
         name: 'Follow My Lead',
         url: 'http://f-m-l.herokuapp.com',
         image:fml_image,
